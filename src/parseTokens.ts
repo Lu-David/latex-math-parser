@@ -414,6 +414,7 @@ class Parser {
       this.nextToken(); // consume \left
     }
     const leftGrouping = this.tryConsume("expected '(', '|',",
+      TokenType.Lbrace, // Added by me for sqrt ops
       TokenType.Lparen,
       TokenType.Bar);
     let grouping = this.nextExpression();

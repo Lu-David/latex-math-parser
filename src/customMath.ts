@@ -2,7 +2,7 @@ import { create, all, MathJsStatic } from 'mathjs';
 
 // use BigNumber to reduce floating-point rounding errors
 const math = create(all, {
-  number: 'BigNumber',
+  number: 'bignumber',
   precision: 64,
 }) as MathJsStatic;
 

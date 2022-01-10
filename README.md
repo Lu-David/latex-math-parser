@@ -1,3 +1,7 @@
+# This project is built on top of TeX Math Parser, which was created by @davidtranhq
+
+Link to original repo: https://github.com/davidtranhq/tex-math-parser 
+
 # TeX Math Parser
 
 TeX Math Parser parses TeX math into [a MathJS expression tree](https://mathjs.org/docs/expressions/expression_trees.html) which can then be further manipulated and evaluated by [MathJS](https://mathjs.org/). The library also provides convenience functions for directly evaluating TeX math with MathJS.
